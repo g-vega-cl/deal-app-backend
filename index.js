@@ -6,7 +6,7 @@ const port = process.env.PORT || 3000;
 
 app.use(cors())
 
-app.get("/", async (req, res) => {
+app.get("/getShopifyProducts", async (req, res) => {
   const shopifyProducts = await getShopifyProducts();
   res.send(shopifyProducts);
 });
