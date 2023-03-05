@@ -1,0 +1,24 @@
+{
+  "name": "deal-app-backend",
+  "version": "1.0.0",
+  "description": "deal-app-backend",
+  "main": "index.ts",
+  "type": "module",
+  "scripts": {
+    "build": "tsc --project ./"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/g-vega-cl/deal-app-backend.git"
+  },
+  "author": "g-vega-cl",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/g-vega-cl/deal-app-backend/issues"
+  },
+  "homepage": "https://github.com/g-vega-cl/deal-app-backend#readme",
+  "dependencies": {
+    "cors": "^2.8.5",
+    "express": "^4.18.2"
+  }
+}
