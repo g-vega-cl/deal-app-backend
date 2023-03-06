@@ -6,7 +6,7 @@ export async function getShopifyProducts() {
     method: "GET", // *GET, POST, PUT, DELETE, etc.
     headers: {
       "Content-Type": "application/json",
-      "X-Shopify-Access-Token": "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",
+      "X-Shopify-Access-Token": process.env.SHOPIFY_ACCESS_TOKEN_KEY,
     },
   });
     return response.json(); // parses JSON response into native JavaScript objects
